@@ -252,6 +252,9 @@ section {
   width: 100%;
 }
 
+.img9, .img10, .img11, .img12 {
+  display: none;
+}
 /*@media screen and (max-width: 1920px) {
   .shares {
     height: 50vh;
@@ -375,7 +378,7 @@ section {
 @media screen and (max-width: 545px) {
   .shares {
     width: 90%;
-    height: 80vh;
+    height: 90vh;
   }
 
   .img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8 {
