@@ -320,5 +320,74 @@ section {
 }
 
 @media screen and (max-width: 750px) {
-  
+  .shares {
+    width: 47%;
+  }
+
+  .img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8 {
+    height: 40%;
+  }
+
+  .click-logos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    margin: 10px;
+    align-self: flex-end;
+  }
+
+  .imm-logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .logo-labels {
+    display: flex;
+    align-items: flex-end;
+    padding: 0 0 20px 5px;
+    margin-left: 30px;
+  }
+}
+
+@media screen and (max-width: 710px) {
+  .shares {
+    width: 46%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .user {
+    font-size: 12px;
+  }
+
+  .login,
+  .imm-logo {
+    margin-right: 30px;
+  }
+
+  .click-logos {
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 545px) {
+  .shares {
+    width: 90%;
+    height: 80vh;
+  }
+
+  .img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8 {
+    height: 50%;
+  }
+
+  .share-info {
+    height: 50%;
+  }
+
+  .user {
+    font-size: 11px;
+  }
+
 }
